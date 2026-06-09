@@ -1,5 +1,7 @@
 # write-cut
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Agent skill for writing and editing technical documentation in infostyle.
 
 Based on Maxim Iliyakhov's books ["Пиши, сокращай"](https://book.ilyahov.ru/) ("Write, Cut") and "Ясно, понятно" ("Clear, Understandable").
@@ -65,3 +67,18 @@ write-cut/
 Rules based on:
 - Maxim Iliyakhov — *Пиши, сокращай* (Write, Cut)
 - Maxim Iliyakhov — *Ясно, понятно* (Clear, Understandable)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
