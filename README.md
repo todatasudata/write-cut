@@ -28,12 +28,6 @@ Ask the agent to use `write-cut` when:
 ## Installation
 
 ```bash
-skillport add https://github.com/todatasudata/write-cut
-```
-
-Or with `npx skills`:
-
-```bash
 npx skills add todatasudata/write-cut
 ```
 
