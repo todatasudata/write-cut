@@ -23,15 +23,27 @@ Ask the agent to use `write-cut` when:
 - Writing API documentation or instructions
 - Editing any text that explains or records something
 
+## Installation
+
+```bash
+skillport add https://github.com/todatasudata/write-cut
+```
+
+Or with `npx skills`:
+
+```bash
+npx skills add todatasudata/write-cut
+```
+
 ## How to activate
 
-In your prompt:
+The skill loads automatically in every conversation (`alwaysApply: true`).
+
+To invoke explicitly:
 
 ```
 Use the write-cut skill to write/edit the following: ...
 ```
-
-Or reference it by name if your skill system auto-loads it.
 
 ## Token consumption
 
@@ -43,8 +55,9 @@ Or reference it by name if your skill system auto-loads it.
 
 ```
 write-cut/
-├── SKILL.md    # Agent instructions
-└── README.md   # This file
+├── SKILL.md    # Agent instructions (loaded by agent)
+├── README.md   # This file (not loaded)
+└── SPEC.md     # Original Russian specification, archive (not loaded)
 ```
 
 ## Credits
