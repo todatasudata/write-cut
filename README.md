@@ -31,6 +31,15 @@ Ask the agent to use `write-cut` when:
 npx skills add todatasudata/write-cut
 ```
 
+## Disabling auto-load
+
+The skill loads in every conversation by default (`alwaysApply: true`). To disable, edit the installed file:
+
+```bash
+# ~/.agents/skills/write-cut/SKILL.md
+# change: alwaysApply: true → alwaysApply: false
+```
+
 ## How to activate
 
 The skill loads automatically in every conversation (`alwaysApply: true`).
